@@ -17,12 +17,6 @@ export default function App() {
         value={markdown} 
       />
 
-      {/*<div 
-        className="preview" 
-        dangerouslySetInnerHTML={{ __html: marked(markdown) }
-        }
-      />*/}
-
       <ReactMarkdown className="preview" source={markdown} />
 
     </div>
